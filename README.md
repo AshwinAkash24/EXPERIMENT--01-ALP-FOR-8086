@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
+```
+Name : Ashwin Akash M
+Roll no :212223230024
+Date of experiment :11-03-2025
+```
 
 
 
@@ -77,26 +78,64 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition of 8 bit ALP 
+```
+org 100h
 
+MOV AX,1122h
+MOV BX,3344h
+ADD AX,BX
+MOV [6000h],AX
+ret
+```
 
 
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
+ ![image](https://github.com/user-attachments/assets/ba103aba-f172-497f-918b-a9d44d1d52a2)
+
+## Subtraction of 8 bit numbers  ALP
+```
+org 100h
+MOV AX,[5000h]
+MOV BX,[5002h]
+SUB AX,BX  
+MOV [6010h],AX
+ret
+```
 ## Output  
-## Multiplication alp 
- ## Output  
+![image](https://github.com/user-attachments/assets/9b6e4983-34ef-4890-9727-ef7841db7171)
 
-
-## Division alp 
-
+## Multiplication of 8 bit numbers  ALP
+```
+org 100h
+MOV BX,4444h
+MOV AX,BX
+MOV CX,3333h
+MOV DX,CX
+MUL DX
+MOV [6020h],AX
+ret
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/fd49bb9d-ca66-463f-83f4-2a9e6e4635a2)
+
+
+## Division of 8 bit numbers  ALP
+```
+org 100h              
+MOV AX,702H
+MOV BL,10H
+DIV BL 
+MOV [6030h],AL
+HLT
+ret
+```
+## Output  
+![image](https://github.com/user-attachments/assets/0f067307-eb4c-48bb-ae80-37ed44668289)
 
 
 ## Result :
- 
+Hence,The logiacl opertaion and arithmetic operation has been executed successfully.
 
 
 
