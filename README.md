@@ -2,7 +2,6 @@
 ```
 Name : Ashwin Akash M
 Roll no :212223230024
-Date of experiment :11-03-2025
 ```
 
 
